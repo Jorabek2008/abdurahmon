@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import medi1 from "/media1.jpg"
+import market from "/media1.jpg"
+import info from "/media1.jpg"
 
 const Media1 = () => {
   useEffect(() => {
@@ -22,7 +25,7 @@ const Media1 = () => {
         <div className="w-[400px] md:w-[200px] lg:w-[330px] mx-auto">
           <div className="w-[400px] md:w-[200px] lg:w-[330px] h-[240px] mx-auto mb-[20px]">
             <img
-              src="/media1.jpg"
+              src={medi1}
               className="object-cover rounded-xl w-[300px] h-[240px] mx-auto"
               alt=""
             />
@@ -37,7 +40,7 @@ const Media1 = () => {
         <div className="w-[400px] md:w-[200px] lg:w-[330px] mx-auto">
           <div className="w-[400px] md:w-[200px] lg:w-[330px] h-[240px] mx-auto mb-[20px]">
             <img
-              src="/marketolog.jpg"
+              src={market}
               className="object-cover rounded-xl w-[300px] h-[240px] mx-auto"
               alt=""
             />
@@ -52,7 +55,7 @@ const Media1 = () => {
         <div className="w-[400px] md:w-[200px] lg:w-[330px] mx-auto">
           <div className="w-[400px] md:w-[200px] lg:w-[330px] h-[240px] mx-auto mb-[20px]">
             <img
-              src="/info.jpg"
+              src={info}
               className="object-cover rounded-xl w-[300px] h-[240px] mx-auto"
               alt=""
             />

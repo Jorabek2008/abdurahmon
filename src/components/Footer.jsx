@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-scroll";
-import cryptoLogo from "../../public/media.png";
+import cryptoLogo from "/media.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

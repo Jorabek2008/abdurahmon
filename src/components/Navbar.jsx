@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import cryptoLogo from "../../public/media.png";
+import cryptoLogo from "/media.png";
 import { LINK } from "./../mock/link";
 import { Link } from "react-scroll";
 import { FaBars } from "react-icons/fa6";
