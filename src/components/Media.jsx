@@ -15,9 +15,9 @@ const Media = () => {
       id="/about"
         data-aos="fade-up"
     >
-      <div className="flex flex-wrap items-center md:w-[700px] lg:w-[900px] xl:w-[1200px]  mx-auto gap-[100px] py-[100px]">
-        <img src={ab1} className="w-[430px] mx-auto lg:m-0 h-[430px] rounded-xl" alt="logo" />
-        <div className="">
+      <div className="flex flex-wrap items-center md:w-[700px] lg:w-[900px] xl:w-[1200px]  mx-auto gap-[60px] py-[100px]">
+        <img src={ab1} className="lg:w-[390px] lg:h-[390px] xl:w-[430px] mx-auto xl:lg:m-0 h-[430px] rounded-xl" alt="logo" />
+        <div className="xl:w-[500px] lg:w-[400px] mx-auto">
           <h1 className="text-white text-center lg:text-left text-[30px] font-semibold">
             <span className="text-[#00C2FF]">Media</span> nima?
           </h1>
